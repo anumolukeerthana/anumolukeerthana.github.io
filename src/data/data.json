@@ -1,15 +1,14 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Hello to a healthy life",
+    "paragraph": "At Dietello, we are driven by a single mission: to inspire and empower a healthier, more energised lifestyle for everyone. We’re not just about diets but about creating sustainable changes that lead to lasting wellness."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "At Dietello, we are driven by a single mission: to inspire and empower a healthier, more energised lifestyle for everyone. We’re not just about diets but about creating sustainable changes that lead to lasting wellness.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Lifestyle habits to ensure ease of adoption.",
+      "Hereditary factors for personalised health solutions.",
+      "Affordability to make healthy living accessible to all"
     ],
     "Why2": [
       "Aliquip ex ea commodo",
@@ -132,23 +131,8 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
+      "name": "Keerthana Anumolu",
       "job": "Director"
-    },
-    {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
     }
   ],
   "Contact": {
