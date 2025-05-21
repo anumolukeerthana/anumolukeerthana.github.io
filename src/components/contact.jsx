@@ -41,6 +41,7 @@ export const Contact = (props) => {
         <div className="container">
           <div className="col-md-8">
             <div className="row">
+              <iframe width='100%' height='750px' src='https://augetivetechnologies.zohobookings.com/portal-embed#/4738165000000042052' frameborder='0' allowfullscreen='' > </iframe>
               <div className="section-title">
                 <h2>Get In Touch</h2>
                 <p>
