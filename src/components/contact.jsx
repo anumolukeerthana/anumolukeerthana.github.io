@@ -42,7 +42,7 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <iframe width='100%' height='750px' src='https://augetivetechnologies.zohobookings.com/portal-embed#/4738165000000042052' frameborder='0' allowfullscreen='' > </iframe>
-              <div className="section-title">
+              {/* <div className="section-title">
                 <h2>Get In Touch</h2>
                 <p>
                   Please fill out the form below to send us an email and we will
@@ -96,7 +96,7 @@ export const Contact = (props) => {
                 <button type="submit" className="btn btn-custom btn-lg">
                   Send Message
                 </button>
-              </form>
+              </form> */}
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
