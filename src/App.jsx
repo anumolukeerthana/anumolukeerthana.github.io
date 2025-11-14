@@ -11,6 +11,7 @@ import { BlogDetail } from "./components/blog-detail";
 // import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
+import { Appointment } from "./components/appointment";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -65,6 +66,7 @@ const App = () => {
           <Route exact path="/" render={() => <HomePage landingPageData={landingPageData} />} />
           <Route exact path="/blog" render={() => <Blog data={landingPageData.Blog} />} />
           <Route path="/blog/:slug" render={() => <BlogDetail data={landingPageData.Blog} />} />
+          <Route exact path="/appointment" render={() => <Appointment />} />
         </Switch>
       </div>
     </Router>

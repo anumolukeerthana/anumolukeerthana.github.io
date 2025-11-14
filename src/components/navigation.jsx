@@ -62,6 +62,11 @@ export const Navigation = withRouter((props) => {
               </Link>
             </li>
             <li>
+              <Link to="/appointment">
+                Book Appointment
+              </Link>
+            </li>
+            <li>
               <a href="#team" onClick={(e) => handleNavClick(e, 'team')} className="page-scroll">
                 Team
               </a>
