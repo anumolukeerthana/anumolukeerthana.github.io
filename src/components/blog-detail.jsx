@@ -62,7 +62,7 @@ export const BlogDetail = (props) => {
 
           <div className="blog-meta-full">
             <span className="blog-date">{post.date}</span>
-            <span className="blog-author">By {post.author}</span>
+            <span className="blog-author"> By {post.author}</span>
           </div>
 
           <div className="blog-post-content">

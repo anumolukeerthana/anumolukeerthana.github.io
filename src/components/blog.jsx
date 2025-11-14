@@ -56,7 +56,7 @@ export const Blog = (props) => {
                   </p>
                   <div className="blog-meta">
                     <span className="blog-date">{post.date}</span>
-                    <span className="blog-author">By {post.author}</span>
+                    <span className="blog-author"> By {post.author}</span>
                   </div>
                   <div className="blog-read-more">
                     <Link to={`/blog/${createSlug(post.title)}`} className="btn btn-read-more">
