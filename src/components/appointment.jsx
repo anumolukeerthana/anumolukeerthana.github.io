@@ -20,7 +20,7 @@ export const Appointment = () => {
         <div className="container">
           <div className="section-title text-center">
             <h2>Book Your Appointment</h2>
-            <p>Schedule your 30-minute nutrition consultation with Dr. Keerthana Anumolu</p>
+            <p>Schedule your 30-minute nutrition consultation with Keerthana Anumolu</p>
           </div>
         </div>
       </div>
