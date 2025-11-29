@@ -44,12 +44,12 @@ export const About = (props) => {
               <p>
                 At Dietello, we believe that health should never feel out of reach. That’s why we prioritize plans that are simple to follow, nourishing, and truly transformative.
               </p>
-              <h3>Our Commitment to a Healthier Society</h3>
+              <h3>Our Vision</h3>
               <p>
-                We envision a world where nutritional awareness becomes second nature and health-conscious choices lead to happier lives. Through our innovative approach and dedication to your well-being, Dietello is working to build a healthier, more vibrant community—one individual at a time.
+                We envision a world where nutritional awareness becomes second nature and health-conscious choices lead to happier lives. Through our innovative approach and dedication to your well-being, Dietello is working to build a healthier, more vibrant community.
               </p>
               <p>
-                With Dietello, you’re not just following a diet but embracing a lifestyle change designed for real results and lasting impact. Let’s take the first step together.
+                With Dietello, you're not just following a diet but embracing a sustainable lifestyle changes.
               </p>
             </div>
           </div>
