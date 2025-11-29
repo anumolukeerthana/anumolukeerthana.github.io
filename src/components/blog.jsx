@@ -40,33 +40,41 @@ export const Blog = (props) => {
           <p>{blogData.subtitle}</p>
         </div>
         <div className="row">
-          {blogData.posts.map((post, index) => (
-            <div key={index} className="col-xs-12 col-md-4">
-              <div className="blog-item">
-                <div className="blog-content">
-                  <h3>
-                    <Link to={`/blog/${createSlug(post.title)}`} className="blog-title-link">
-                      {post.title}
-                    </Link>
-                  </h3>
-                  <p>
-                    {post.content.length > 150
-                      ? `${post.content.substring(0, 150)}...`
-                      : post.content}
-                  </p>
-                  <div className="blog-meta">
-                    <span className="blog-date">{post.date}</span>
-                    <span className="blog-author"> By {post.author}</span>
-                  </div>
-                  <div className="blog-read-more">
-                    <Link to={`/blog/${createSlug(post.title)}`} className="btn btn-read-more">
-                      Read More
-                    </Link>
+          {blogData.posts.length === 0 ? (
+            <div className="col-xs-12 text-center">
+              <div className="blog-empty-state">
+                <p>No blog posts available at the moment. Check back soon for updates!</p>
+              </div>
+            </div>
+          ) : (
+            blogData.posts.map((post, index) => (
+              <div key={index} className="col-xs-12 col-md-4">
+                <div className="blog-item">
+                  <div className="blog-content">
+                    <h3>
+                      <Link to={`/blog/${createSlug(post.title)}`} className="blog-title-link">
+                        {post.title}
+                      </Link>
+                    </h3>
+                    <p>
+                      {post.content.length > 150
+                        ? `${post.content.substring(0, 150)}...`
+                        : post.content}
+                    </p>
+                    <div className="blog-meta">
+                      <span className="blog-date">{post.date}</span>
+                      <span className="blog-author"> By {post.author}</span>
+                    </div>
+                    <div className="blog-read-more">
+                      <Link to={`/blog/${createSlug(post.title)}`} className="btn btn-read-more">
+                        Read More
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))
+          )}
         </div>
       </div>
     </div>
